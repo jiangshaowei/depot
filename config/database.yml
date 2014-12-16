@@ -1,0 +1,11 @@
+
+
+development:
+  adapter: mysql
+  database: depot
+  username: root
+  password: jiangshaowei
+  host: localhost
+
+
+
