@@ -8,4 +8,10 @@ development:
   host: localhost
 
 
+test:
+  adapter: mysql
+  database: depot_test
+  username: root
+  password: jiangshaowei
+  host: localhost
 

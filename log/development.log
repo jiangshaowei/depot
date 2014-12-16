@@ -7,3 +7,184 @@ Migrating to CreateProducts (20141216041533)
   [1m[35mSQL (11.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES (?)  [["version", "20141216041533"]]
   [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+
+
+Started GET "/" for 10.0.0.3 at 2014-12-16 12:58:38 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/jerry/.rvm/gems/ruby-2.1.4/gems/railties-4.1.7/lib/rails/templates/rails/welcome/index.html.erb (3.3ms)
+Completed 200 OK in 57ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for 10.0.0.3 at 2014-12-16 12:58:49 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.6ms)[0m  SELECT `products`.* FROM `products`
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 767ms (Views: 757.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/products.css?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/application.css?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/products.js?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.0.3 at 2014-12-16 12:58:50 +0800
+
+
+Started GET "/products/new" for 10.0.0.3 at 2014-12-16 13:01:17 +0800
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (41.5ms)
+  Rendered products/new.html.erb within layouts/application (86.8ms)
+Completed 200 OK in 133ms (Views: 124.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/products" for 10.0.0.3 at 2014-12-16 13:01:19 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 103ms (Views: 101.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/products" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (0.2ms)[0m  SELECT `products`.* FROM `products`
+  Rendered products/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 96ms (Views: 80.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/products.css?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/application.css?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/products.js?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.0.3 at 2014-12-16 13:05:27 +0800
+
+
+Started GET "/products/new" for 10.0.0.3 at 2014-12-16 13:05:29 +0800
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (13.7ms)
+  Rendered products/new.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 78ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products/new" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+Processing by ProductsController#new as HTML
+  Rendered products/_form.html.erb (18.1ms)
+  Rendered products/new.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 99ms (Views: 97.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/products.css?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/products.js?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.0.3 at 2014-12-16 13:06:39 +0800
+
+
+Started POST "/products" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ycLKfw4XPnSDXqgtPPV5oKwgAo8E36IVHVf2cx1u9qI=", "product"=>{"title"=>"The Hunger Games: Catching Fire", "description"=>"Jennifer Lawrence returns in this thrilling sequel to THE HUNGER GAMES. Katniss and Peeta embark on a victory tour while President Snow plots a deadly new Hunger Games that could change Panem forever.", "image_url"=>"http://www.amazon.com/gp/product/B00I2TV3NO/ref=s9_nwrsa_gw_g318_i1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=082BBSJXMYT6Y05VGPAW&pf_rd_t=36701&pf_rd_p=1970555302&pf_rd_i=desktop", "price"=>"$19.99"}, "commit"=>"Create Product"}
+  [1m[36mSQL (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.3ms)[0m  INSERT INTO `products` (`created_at`, `description`, `image_url`, `price`, `title`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-12-16 05:08:13"], ["description", "Jennifer Lawrence returns in this thrilling sequel to THE HUNGER GAMES. Katniss and Peeta embark on a victory tour while President Snow plots a deadly new Hunger Games that could change Panem forever."], ["image_url", "http://www.amazon.com/gp/product/B00I2TV3NO/ref=s9_nwrsa_gw_g318_i1?pf_rd_m=ATVPDKIKX0DER&pf_rd_s=desktop-1&pf_rd_r=082BBSJXMYT6Y05VGPAW&pf_rd_t=36701&pf_rd_p=1970555302&pf_rd_i=desktop"], ["price", "0.0"], ["title", "The Hunger Games: Catching Fire"], ["updated_at", "2014-12-16 05:08:13"]]
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://10.0.0.9:3000/products/1
+Completed 302 Found in 27ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/products/1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+Processing by ProductsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProduct Load (1.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = ? LIMIT 1  [["id", 1]]
+  Rendered products/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 74ms (Views: 53.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/products.css?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/application.css?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/application.js?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/assets/products.js?body=1" for 10.0.0.3 at 2014-12-16 13:08:13 +0800
+
+
+Started GET "/products" for 10.0.0.3 at 2014-12-16 13:08:17 +0800
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 64ms (Views: 62.2ms | ActiveRecord: 0.6ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+  [1m[35mSQL (2.0ms)[0m  DELETE FROM `products`
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `products` (`created_at`, `description`, `image_url`, `price`, `title`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-12-16 05:35:11"], ["description", "<p>\n        <em>Web Design for Developers</em> will show you how to make your\n        web-based application look professionally designed. We'll help you\n        learn how to pick the right colors and fonts, avoid costly interface\n        and accessibility mistakes -- your application will really come alive.\n        We'll also walk you through some common Photoshop and CSS techniques\n        and work through a web site redesign, taking a new design from concept\n        all the way to implementation.\n      </p>"], ["image_url", "/images/wd4d.jpg"], ["price", "42.95"], ["title", "Web Design for Developers"], ["updated_at", "2014-12-16 05:35:11"]]
+  [1m[36m (43.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mSQL (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO `products` (`created_at`, `description`, `image_url`, `price`, `title`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)[0m  [["created_at", "2014-12-16 05:35:11"], ["description", "<p>\n        Ruby is the fastest growing and most exciting dynamic language\n        out there. If you need to get working programs delivered fast,\n        you should add Ruby to your toolbox.\n      </p>"], ["image_url", "/images/ruby.jpg"], ["price", "49.5"], ["title", "Programming Ruby 1.9"], ["updated_at", "2014-12-16 05:35:11"]]
+  [1m[35m (1.5ms)[0m  COMMIT
+  [1m[36mSQL (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `products` (`created_at`, `description`, `image_url`, `price`, `title`, `updated_at`) VALUES (?, ?, ?, ?, ?, ?)  [["created_at", "2014-12-16 05:35:11"], ["description", "<p>\n        <em>Rails Test Prescriptions</em> is a comprehensive guide to testing\n        Rails applications, covering Test-Driven Development from both a\n        theoretical perspective (why to test) and from a practical perspective\n        (how to test effectively). It covers the core Rails testing tools and\n        procedures for Rails 2 and Rails 3, and introduces popular add-ons,\n        including Cucumber, Shoulda, Machinist, Mocha, and Rcov.\n      </p>"], ["image_url", "/images/rtp.jpg"], ["price", "43.75"], ["title", "Rails Test Prescriptions"], ["updated_at", "2014-12-16 05:35:11"]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
