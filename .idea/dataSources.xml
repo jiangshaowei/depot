@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1599959268">
+    <data-source source="LOCAL" name="Rails depot: development" uuid="8b7a202b-220b-49de-a6a1-0a031e0f4f83">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/depot</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc0dfc3dfcbdfc4dfcddfd9dfc2dfcbdfc5dfdddfcfdfc3</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails depot: test" uuid="439ed145-1ae2-4fea-a42b-56ebfcae3d9a">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/depot_test</jdbc-url>
+      <user-name>root</user-name>
+      <user-password>dfc0dfc3dfcbdfc4dfcddfd9dfc2dfcbdfc5dfdddfcfdfc3</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
