@@ -15,3 +15,13 @@ test:
   password: jiangshaowei
   host: localhost
 
+
+production:
+  adapter: mysql
+  database: depot_production
+  username: root
+  password: jiangshaowei
+  host: localhost
+  pool: 5
+  reconnect: false
+  encoding: utf8
